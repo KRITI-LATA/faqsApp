@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.app-container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.faq-container {
+  background-color: #ffffff;
+  margin: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 1px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq-heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+.faq-answer-container {
+  display: flex;
+  flex-direction: column;
+}
+.faq-list-container {
+  list-style-type: none;
+}
